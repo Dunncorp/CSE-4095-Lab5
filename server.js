@@ -25,5 +25,5 @@ const handler = serverNum => (req, res) => {
 app1.get('*', handler(1)).post('*', handler(1));
 app2.get('*', handler(2)).post('*', handler(2));
 
-app1.listen(3000);
-app2.listen(3001);
+app1.listen(3001);
+app2.listen(3002);
